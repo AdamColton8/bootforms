@@ -1,0 +1,61 @@
+.toggle-handle {
+    background: #ffffff;
+    width: 67px;
+}
+
+.toggle.off .toggle-handle {
+    left: -10px;
+}
+
+.toggle .toggle-handle {
+    left: 10px;
+}
+
+.wrap_first {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 14px 2px rgba(0, 0, 0, .2);
+    margin-top: 60px;
+}
+
+.wrap_second {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 14px 2px rgba(0, 0, 0, .2);
+    margin-top: 30px;
+}
+
+.dropdown-toggle::after {
+    margin-left: 3.255em;
+    vertical-align: .255em;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#2a5fb2), to(#5088e0)) fixed;
+}
+
+
+.row_dropdown {
+    padding: 30px 40px;
+}
+
+.wrap_toggle {
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.lable_form {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.row_toggle {
+    margin-bottom: 30px;
+}
+
+.wrap_second .row_toggle {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
