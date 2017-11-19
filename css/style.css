@@ -80,3 +80,16 @@ body {
 #source_row {
     display: none;
 }
+.toggle_hidden {
+    
+}
+
+
+.active-_first ._second {
+    display: none;
+
+}
+
+.active-_second ._first {
+    display: none;
+}
