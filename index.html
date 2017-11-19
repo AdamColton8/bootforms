@@ -17,6 +17,8 @@
 
 <body>
     <div class="container">
+        <form id="form_class">
+
         <div class="row justify-content-center" id="source_wrap">
             <!-- first block white -->
             <div class="col-md-12 wrap_first">
@@ -163,7 +165,27 @@
                         </div>
         
                     </div>
-                    <div id="source_row">
+               
+                    </div>
+       
+
+                <div class="row">
+                      <div class="col-md-6">
+                              <button type="button" class="btn btn-primary btn-lg buttod_add" id="remove_button">- Remove</button>
+                              <button type="button" class="btn btn-primary btn-lg" id="add_button">+ Add parcel or pallet</button>
+                          </div>
+                          <div class="col-md-6 flex_justify">
+                                  <button type="submit" class="btn btn-danger btn-lg">Quote & Book</button> 
+                          </div>
+                </div>
+
+            </div>
+
+
+                    </form>
+                    </div>
+
+                      <div id="source_row">
                     <div class="col-md-12 wrap_third">
                             <div class="row justify-content-between row_toggle">
                                 <div class="col-md-2">
@@ -171,45 +193,66 @@
                                         <input type="checkbox" class="toggle_hidden" >
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+
+                                <div class="col-md-2 _first">
                                     <p class="lable_form">Weight:</p>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input type="text"  class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Pcs</span>
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 _first">
                                     <p class="lable_form">Height:</p>
                                     <div class="input-group">
                                         <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Cm</span>
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 _first">
                                     <p class="lable_form">Weight of pallet:</p>
                                     <div class="input-group">
                                         <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Kg</span>
                                     </div>
                                 </div>
+
+                                 <!-- Second row -->
+                                 <div class="col-md-2 _second">
+                                    <p class="lable_form">Weight:</p>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">Kg</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 _second">
+                                    <p class="lable_form">Length:</p>
+
+                                    <div class="input-group">
+
+                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">Cm</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 _second">
+                                    <p class="lable_form">Width:</p>
+                                    <div class="input-group">
+
+                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">Cm</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 _second">
+                                    <p class="lable_form">Height:</p>
+                                    <div class="input-group">
+
+                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">Cm</span>
+                                    </div>
+                                </div>
                             </div>
                             
                         </div>
                     </div>
-                    </div>
-       
-
-                <div class="row">
-                      <div class="col-md-6">
-                              <button type="button" class="btn btn-primary btn-lg buttod_add">- Remove</button>
-                              <button type="button" class="btn btn-primary btn-lg" id="add_button">+ Add parcel or pallet</button>
-                          </div>
-                          <div class="col-md-6 flex_justify">
-                                  <button type="button" class="btn btn-danger btn-lg">Quote & Book</button> 
-                          </div>
-                </div>
-
-            </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
