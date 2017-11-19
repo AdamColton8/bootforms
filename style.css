@@ -24,6 +24,13 @@
     box-shadow: 0 10px 14px 2px rgba(0, 0, 0, .2);
     margin-top: 30px;
 }
+.wrap_third {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 14px 2px rgba(0, 0, 0, .2);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 .dropdown-toggle::after {
     margin-left: 3.255em;
@@ -58,4 +65,15 @@ body {
 .wrap_second .row_toggle {
     margin-top: 20px;
     margin-bottom: 45px;
+}
+.wrap_third .row_toggle {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.buttod_add{
+    margin-right: 10px;
+}
+.flex_justify {
+    display: flex;
+    justify-content: flex-end;
 }
