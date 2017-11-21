@@ -41,6 +41,18 @@ $("#remove_button").click(function () {
 
 $("#form_class").on("submit" ,function (e) {
    
+        var fields = $(this).serializeArray();
+        
+        jQuery.each( fields, function( i, field ) {
+            if (field.value != "") {
+                console.log(i,field);
+            }
+          
+        });
+      
+     
+      
+      
 
    return false;
 })

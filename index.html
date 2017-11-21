@@ -21,7 +21,7 @@
 
         <div class="row justify-content-center" id="source_wrap">
             <!-- first block white -->
-            <div class="col-md-12 wrap_first">
+            <div class="col-md-12 wrap_first active-_second">
                 <div class="row row_dropdown">
                     <div class="col-md-6">
                         <div class="input-group">
@@ -37,7 +37,7 @@
                                     <a class="dropdown-item" href="#">USA</a>
                                 </div>
                             </div>
-                            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="ZIP code, Address">
+                            <input name="zip_adress" type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="ZIP code, Address">
                         </div>
 
                     </div>
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
 
-                            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="ZIP code, Address">
+                            <input name="zip_adress" type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="ZIP code, Address">
 
                         </div>
                     </div>
@@ -64,102 +64,188 @@
                 <div class="row justify-content-between row_toggle">
                     <div class="col-md-2">
                         <div class="wrap_toggle">
-                            <input type="checkbox" checked data-toggle="toggle" data-on="PARCEL" data-off="PALLET" data-onstyle="primary" data-offstyle="primary">
+                            <input name="input_toggle" type="checkbox" checked data-toggle="toggle" data-on="PARCEL" data-off="PALLET" data-onstyle="primary" data-offstyle="primary">
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 _second">
                         <p class="lable_form">Weight:</p>
                         <div class="input-group">
-                            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <span class="input-group-addon" id="basic-addon2">Kg</span>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 _second">
                         <p class="lable_form">Length:</p>
-
                         <div class="input-group">
-
-                            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input  name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <span class="input-group-addon" id="basic-addon2">Cm</span>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 _second">
                         <p class="lable_form">Width:</p>
                         <div class="input-group">
-
-                            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <span class="input-group-addon" id="basic-addon2">Cm</span>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 _second">
                         <p class="lable_form">Height:</p>
                         <div class="input-group">
-
-                            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <span class="input-group-addon" id="basic-addon2">Cm</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 _first">
+                        <p class="lable_form">Number of pallets:</p>
+                        <div class="input-group">
+                            <input name="input_pcs" type="text"  class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-addon" id="basic-addon2">Pcs</span>
+                        </div>
+                    </div>
+                    <div class="col-md-2 _first">
+                        <p class="lable_form">Height:</p>
+                        <div class="input-group">
+                            <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-addon" id="basic-addon2">Cm</span>
+                        </div>
+                    </div>
+                    <div class="col-md-2 _first">
+                        <p class="lable_form">Weight of pallet:</p>
+                        <div class="input-group">
+                            <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-addon" id="basic-addon2">Kg</span>
                         </div>
                     </div>
                 </div>
                 <!-- Second row -->
 
             </div>
-            <div class="col-md-12 wrap_second">
+            <div class="col-md-12 wrap_second active-_first">
                     <div class="row justify-content-between row_toggle">
                         <div class="col-md-2">
                             <div class="wrap_toggle">
-                                <input type="checkbox" data-toggle="toggle" data-on="PARCEL" data-off="PALLET" data-onstyle="primary" data-offstyle="primary">
+                                <input name="input_toggle" type="checkbox" data-toggle="toggle" data-on="PARCEL" data-off="PALLET" data-onstyle="primary" data-offstyle="primary">
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            <p class="lable_form">Weight:</p>
+
+                        <div class="col-md-2 _first">
+                            <p class="lable_form">Number of pallets:</p>
                             <div class="input-group">
-                                <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input name="input_pcs" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 <span class="input-group-addon" id="basic-addon2">Pcs</span>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 _first">
                             <p class="lable_form">Height:</p>
                             <div class="input-group">
+                                <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-addon" id="basic-addon2">Cm</span>
+                            </div>
+                        </div>
+                        <div class="col-md-2 _first">
+                            <p class="lable_form">Weight of pallet:</p>
+                            <div class="input-group">
+                                <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-addon" id="basic-addon2">Kg</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 _second">
+                            <p class="lable_form">Weight:</p>
+                            <div class="input-group">
+                                <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-addon" id="basic-addon2">Kg</span>
+                            </div>
+                        </div>
+                        <div class="col-md-2 _second">
+                            <p class="lable_form">Length:</p>
+
+                            <div class="input-group">
+
+                                <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-addon" id="basic-addon2">Cm</span>
+                            </div>
+                        </div>
+                        <div class="col-md-2 _second">
+                            <p class="lable_form">Width:</p>
+                            <div class="input-group">
+
                                 <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 <span class="input-group-addon" id="basic-addon2">Cm</span>
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            <p class="lable_form">Weight of pallet:</p>
+                        <div class="col-md-2 _second">
+                            <p class="lable_form">Height:</p>
                             <div class="input-group">
-                                <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <span class="input-group-addon" id="basic-addon2">Kg</span>
+
+                                <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-addon" id="basic-addon2">Cm</span>
                             </div>
                         </div>
+
                     </div>
     
                 </div>
-                <div class="col-md-12 wrap_third">
+                <div class="col-md-12 wrap_third active-_first">
                         <div class="row justify-content-between row_toggle">
                             <div class="col-md-2">
                                 <div class="wrap_toggle">
                                     <input type="checkbox" data-toggle="toggle" data-on="PARCEL" data-off="PALLET" data-onstyle="primary" data-offstyle="primary">
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 _first">
                                 <p class="lable_form">Weight:</p>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input name="input_pcs" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-addon" id="basic-addon2">Pcs</span>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 _first">
                                 <p class="lable_form">Height:</p>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-addon" id="basic-addon2">Cm</span>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 _first">
                                 <p class="lable_form">Weight of pallet:</p>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <span class="input-group-addon" id="basic-addon2">Kg</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2 _second">
+                                <p class="lable_form">Weight:</p>
+                                <div class="input-group">
+                                    <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">Kg</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 _second">
+                                <p class="lable_form">Length:</p>
+
+                                <div class="input-group">
+
+                                    <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">Cm</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 _second">
+                                <p class="lable_form">Width:</p>
+                                <div class="input-group">
+
+                                    <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">Cm</span>
+                                </div>
+                            </div>
+                            <div class="col-md-2 _second">
+                                <p class="lable_form">Height:</p>
+                                <div class="input-group">
+
+                                    <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">Cm</span>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +255,7 @@
                     </div>
        
 
-                <div class="row">
+                <div class="row buttons_grid">
                       <div class="col-md-6">
                               <button type="button" class="btn btn-primary btn-lg buttod_add" id="remove_button">- Remove</button>
                               <button type="button" class="btn btn-primary btn-lg" id="add_button">+ Add parcel or pallet</button>
@@ -186,7 +272,7 @@
                     </div>
 
                       <div id="source_row">
-                    <div class="col-md-12 wrap_third">
+                    <div class="col-md-12 wrap_third active-_first">
                             <div class="row justify-content-between row_toggle">
                                 <div class="col-md-2">
                                     <div class="wrap_toggle">
@@ -197,21 +283,21 @@
                                 <div class="col-md-2 _first">
                                     <p class="lable_form">Weight:</p>
                                     <div class="input-group">
-                                        <input type="text"  class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_pcs" type="text"  class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Pcs</span>
                                     </div>
                                 </div>
                                 <div class="col-md-2 _first">
                                     <p class="lable_form">Height:</p>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Cm</span>
                                     </div>
                                 </div>
                                 <div class="col-md-2 _first">
                                     <p class="lable_form">Weight of pallet:</p>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Kg</span>
                                     </div>
                                 </div>
@@ -220,7 +306,7 @@
                                  <div class="col-md-2 _second">
                                     <p class="lable_form">Weight:</p>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_kg" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Kg</span>
                                     </div>
                                 </div>
@@ -229,7 +315,7 @@
 
                                     <div class="input-group">
 
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Cm</span>
                                     </div>
                                 </div>
@@ -237,7 +323,7 @@
                                     <p class="lable_form">Width:</p>
                                     <div class="input-group">
 
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Cm</span>
                                     </div>
                                 </div>
@@ -245,7 +331,7 @@
                                     <p class="lable_form">Height:</p>
                                     <div class="input-group">
 
-                                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input name="input_cm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                         <span class="input-group-addon" id="basic-addon2">Cm</span>
                                     </div>
                                 </div>
