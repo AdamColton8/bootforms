@@ -12,12 +12,6 @@ $('#add_button').click(function(){
 
    $isChecked = $('#source_wrap .col-md-12:last-child input[type="checkbox"]').prop("checked");
    $('#source_wrap .col-md-12:last-child').addClass("active-_first");
-
-
-
-
-
-
   });
 
 $("body").delegate("input[type='checkbox']" , 'change' , function () {
@@ -49,10 +43,5 @@ $("#form_class").on("submit" ,function (e) {
             }
           
         });
-      
-     
-      
-      
-
    return false;
 })
